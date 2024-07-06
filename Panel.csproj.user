@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Meta.MainPanel.Data.UI\AetherTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\AnimatedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\HopeSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\PartnerPoster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\RedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\TablessControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Data.UI\TelegramBotSettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views.Old.Actions\MainFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\AuthFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\AutofillesViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\ChooseBrowserFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\CookieViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\CreateWalletRuleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\CreditCardViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\ExceptionsViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\FilesViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\LockFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\MergeFilesConfigFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\PassViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\SaveProcessFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\SplashFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\SystemInfoFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\TelegramConfigurator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Meta.MainPanel.Views\WalletsConfigurator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
